@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/SchoolsFragment"
+    android:id="@+id/school_nav">
+
+    <fragment
+        android:id="@+id/SchoolsFragment"
+        android:name="com.bignerdranch.android.a20221024_mysiaelliott_nycschools.view.SchoolsFragment"
+        android:label="Schools"
+        tools:layout="@layout/fragment_schools">
+
+        <action
+            android:id="@+id/action_SchoolsFragment_to_DetailsFragment"
+            app:destination="@id/DetailsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DetailsFragment"
+        android:name="com.bignerdranch.android.a20221024_mysiaelliott_nycschools.view.ScoresFragment"
+        android:label="School Details"
+        tools:layout="@layout/fragment_scores">
+
+        <action
+            android:id="@+id/action_DetailsFragment_to_SchoolsFragment"
+            app:destination="@id/SchoolsFragment" />
+    </fragment>
+
+</navigation>

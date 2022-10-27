@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/school_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            tools:text="school name"/>
+        <TextView
+            android:id="@+id/total_students"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            tools:text="total students"/>
+        <TextView
+            android:id="@+id/school_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            tools:text="location"/>
+        <TextView
+            android:id="@+id/school_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            tools:text="phone number"/>
+        <TextView
+            android:id="@+id/school_website"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            tools:text="website"/>
+        <TextView
+            android:id="@+id/school_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_margin="8dp"
+            tools:text="overview"/>
+
+        <TextView
+            android:id="@+id/school_math_scores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="16dp"
+            tools:text="school math scores"/>
+        <TextView
+            android:id="@+id/school_reading_scores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            tools:text="school reading scores"/>
+        <TextView
+            android:id="@+id/school_writing_scores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="4dp"
+            tools:text="school writing scores"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
